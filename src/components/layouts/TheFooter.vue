@@ -24,7 +24,7 @@
               <ul class="list-unstyled">
                 <li v-for="item in sponsor.list">
                   <a :href="item.link" target="_blank">
-                    <img v-title="item.title" :src="item.logo" :alt="item.title" class="footer-sponsor-link" width="98">
+                    <img v-title="item.title" :src="item.logo" :alt="item.title" class="footer-sponsor-link" width="73">
                   </a>
                 </li>
               </ul>
@@ -99,22 +99,17 @@ export default {
         title: '赞助商',
         list: [
           {
-            logo: 'https://lccdn.phphub.org/uploads/banners/bQawWl3vT5dc2lYx5JZ7.png',
+            logo: 'https://cdn.learnku.com/uploads/banners/bQawWl3vT5dc2lYx5JZ7.png!large',
             title: '本站服务器由 UCloud 赞助',
             link: 'http://www.ucloud.cn/?utm_source=zanzhu&utm_campaign=phphub&utm_medium=display&utm_content=yejiao&ytag=phphubyejiao'
           },
           {
-            logo: 'https://lccdn.phphub.org/uploads/banners/yGLIR0idW7zsInjsNmzr.png',
-            title: '本站 CDN 服务由七牛赞助',
-            link: 'http://www.qiniu.com/?utm_source=phphub'
-          },
-          {
-            logo: 'https://lccdn.phphub.org/uploads/banners/XPtLlZmIN1cQbLuDFEON.png',
+            logo: 'https://cdn.learnku.com/uploads/banners/XPtLlZmIN1cQbLuDFEON.png!large',
             title: 'Composer 镜像赞助商',
             link: 'https://www.upyun.com/'
           },
           {
-            logo: 'https://lccdn.phphub.org/uploads/banners/JpTCK6OKYBIrBIWdtob8.png',
+            logo: 'https://cdn.learnku.com/uploads/banners/JpTCK6OKYBIrBIWdtob8.png!large',
             title: '订阅邮件赞助商：SendCloud',
             link: 'http://www.sendcloud.net/'
           }
@@ -159,4 +154,5 @@ export default {
 
 <style scoped>
 a:hover, a:focus { color: #e27575; transition: color .15s;}
+.footer-sponsor-link { margin-bottom: 10px;}
 </style>

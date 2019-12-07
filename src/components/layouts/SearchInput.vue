@@ -9,6 +9,7 @@
         @keyup.enter="search"
         @input="updateSearchValue"
       >
+      <i class="fa fa-search text-m"></i>
     </div>
   </div>
 </template>
@@ -50,5 +51,6 @@ export default {
 </script>
 
 <style scoped>
-.search-input { background-image: url(https://vuejscaffcdn.phphub.org/assets/images/icon-search.png)}
+.form-group { position: relative;}
+.fa-search { position: absolute; left: 10px; top: 10px; color: gray;}
 </style>

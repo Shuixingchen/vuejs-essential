@@ -18,7 +18,7 @@
       <div id="top-navbar-collapse" :class="['collapse', 'navbar-collapse', { in: showCollapsedNav }]">
         <ul class="nav navbar-nav">
           <li v-for="(item, index) in navList" :class="{ active: index === activeNavIndex }">
-            <a href="#" @click="changeNavIndex(index)">{{ item }}</a>
+            <a href="/" @click="changeNavIndex(index)">{{ item }}</a>
           </li>
         </ul>
 
@@ -48,7 +48,7 @@ export default {
   data() {
     return {
       logo: {
-        src: `${this.uploadsUrl}sites/ByvFbNlQYVwhvTyBgLdqitchoacDNznN.jpg`,
+        src: `${this.uploadsUrl}communities/hIZjRRdF8oVYZy69XJnT.png!/both/44x44`,
         title: 'VuejsCaff'
       },
       navList: ['社区'],
@@ -57,7 +57,7 @@ export default {
     }
   },
   beforeCreate() {
-    this.uploadsUrl = 'https://vuejscaffcdn.phphub.org/uploads/'
+    this.uploadsUrl = 'https://cdn.learnku.com//uploads/'
   },
   methods: {
     changeNavIndex(index) {

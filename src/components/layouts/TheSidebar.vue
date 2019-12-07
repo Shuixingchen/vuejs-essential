@@ -58,7 +58,7 @@
           <ul class="list list-group">
             <li v-for="(item, index) in resources" class="list-group-item">
               <a :href="item.link" target="_blank">
-                <img class="media-object inline-block " src="https://vuejscaffcdn.phphub.org/uploads/sites/fcxJFYjEMaLQt4Oi1x6ZNkcqvwIVHbfy.png">
+                <img class="media-object inline-block " src="https://cdn.learnku.com//uploads/communities/hIZjRRdF8oVYZy69XJnT.png!/both/44x44">
                 {{ item.title }}
               </a>
             </li>
@@ -89,17 +89,17 @@ export default {
       slides: [
         {
           title: '《Laravel 入门教程 - 从零到部署上线》',
-          img: 'https://lccdn.phphub.org/uploads/banners/YpxKKNlSPdmwotO3u8An.jpg',
+          img: 'https://cdn.learnku.com/uploads/images/201612/10/1/k7wwMpJduq.jpg',
           link: 'https://laravel-china.org/topics/3383/laravel-the-first-chinese-new-book-laravel-tutorial'
         },
         {
           title: '《Laravel 进阶课程 - 从零构建论坛系统》',
-          img: 'https://lccdn.phphub.org/uploads/banners/iNanVVOXdnYQ6jRfMdWE.png',
+          img: 'https://fsdhub.com/uploads/images/201709/18/1/nvXAaDu1iw.png?imageView2/1/w/200/h/200',
           link: 'https://laravel-china.org/topics/6592'
         },
         {
           title: '《Laravel 教程实战高级 - 构架 API 服务器》',
-          img: 'https://lccdn.phphub.org/uploads/banners/tEd4GxhMp6VMh9e0hrUH.jpg',
+          img: 'https://cdn.learnku.com/uploads/images/201711/15/1/fJ5iqgmd7D.jpg',
           link: 'https://laravel-china.org/topics/7657'
         }
       ],

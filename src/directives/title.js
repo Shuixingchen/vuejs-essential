@@ -33,6 +33,7 @@ function getPopover() {
     const fragment = document.createRange().createContextualFragment(tpl)
 
     document.body.appendChild(fragment)
+    // document.body.insertAdjacentHTML('beforeend', tpl)
     popover = document.querySelector('.title-popover')
   }
 
